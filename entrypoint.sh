@@ -2,6 +2,11 @@
 
 set -e
 
+# Instalación de Java 17
+echo "Instalando Java 17..."
+sudo apt update && sudo apt install -y openjdk-17-jdk
+echo "Java 17 instalado correctamente."
+
 REPOSITORY_NAME=$(basename "${GITHUB_REPOSITORY}")
 
 if [[ ! -z "${INPUT_PASSWORD}" ]]; then
