@@ -1,4 +1,4 @@
-FROM sonarsource/sonar-scanner-cli:4
+FROM sonarsource/sonar-scanner-cli:5.0.1.3006
 
 LABEL "com.github.actions.name"="SonarQube Scan"
 LABEL "com.github.actions.description"="Scan your code with SonarQube Scanner to detect bugs, vulnerabilities and code smells in more than 25 programming languages."
